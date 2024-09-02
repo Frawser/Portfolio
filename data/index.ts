@@ -85,7 +85,7 @@ export const projects = [
       "/node.svg",
       "/mongodb.svg",
     ],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://github.com/Frawser/Exam-Project",
   },
   {
     id: 2,
@@ -93,7 +93,7 @@ export const projects = [
     des: "A application that tracks winning numbers from the biggest lotteries in America. Also inlcudes a system ready to recieve user lotter numbers and check if they are winners.",
     img: "/lot.svg",
     iconLists: ["/re.svg", "/css3.svg", "/axios.svg", "/ts.svg", "/node.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://github.com/Frawser/Lottery/tree/main/my-react-ts-app",
   },
   {
     id: 3,
@@ -108,7 +108,7 @@ export const projects = [
       "/mongoose.svg",
       "/express.svg",
     ],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://github.com/Frawser/FEP",
   },
   {
     id: 4,
@@ -123,7 +123,7 @@ export const projects = [
       "/mongoose.svg",
       "/express.svg",
     ],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://github.com/Frawser/JS3-CMS/tree/main/CMS",
   },
 ];
 
