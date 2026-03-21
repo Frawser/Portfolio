@@ -20,26 +20,33 @@ export default function Background() {
       className={`max-w-[60%] mx-auto py-20 flex flex-col md:flex-row items-center gap-12 transition-colors duration-500`}
     >
       <div className="flex-1 space-y-4 text-center md:text-left">
-        <h4 className={`${isDark ? "text-cyan-300" : "text-black"} text-3xl font-semibold`}>
+        <h4
+          className={`${isDark ? "text-cyan-300" : "text-black"} text-3xl font-semibold`}
+        >
           My Story
         </h4>
-        <p className={`${isDark ? "text-white/80" : "text-black/80"} leading-relaxed text-lg`}>
-          Hi, I&apos;m <span className="font-semibold">Mikael Fernandez Olsson</span>. 
-          I&apos;ve been fascinated by computers for as long as I can remember, ever since 
-          I first learned to control a mouse. Over the years, I&apos;ve built my own PCs and 
-          explored the vast world of the internet, always curious about how things work 
-          behind the screen. After completing a two-year frontend YH exam, a 6-month 
-          internship, and a bootcamp at Lexicon, I&apos;m ready to take my first real step 
-          into the tech market. I&apos;m eager to contribute, learn, and grow. Crafting 
-          modern and responsive digital experiences along the way.
+        <p
+          className={`${isDark ? "text-white/80" : "text-black/80"} leading-relaxed text-lg`}
+        >
+          Hi, I&apos;m{" "}
+          <span className="font-semibold">Mikael Fernandez Olsson</span>.
+          Computers have had me hooked since I was old enough to use a mouse. I
+          just always wanted to know what was going on behind the screen. That
+          turned into building my own PCs, a two-year frontend YH program, a
+          3-month internship at Fieldstream where I got hands-on with modern
+          tech and AI in real workflows, a 6-month internship and a bootcamp at
+          Lexicon. I&apos;m now ready for my first real step into tech and
+          genuinely excited to build things, learn fast, and contribute to a
+          team that cares about good work.
         </p>
 
         <Link href="#contact">
           <button
             className={`mt-6 px-6 py-3 rounded-full border transition-all duration-300 font-semibold shadow-sm
-              ${isDark
-                ? "border-cyan-300 text-cyan-300 hover:bg-cyan-400/10"
-                : "border-black text-black hover:bg-black hover:text-white"
+              ${
+                isDark
+                  ? "border-cyan-300 text-cyan-300 hover:bg-cyan-400/10"
+                  : "border-black text-black hover:bg-black hover:text-white"
               }`}
           >
             Contact Me
