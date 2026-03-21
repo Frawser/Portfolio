@@ -15,19 +15,21 @@ export default function Stats() {
   const articles = [
     {
       title: "2+ Years",
-      description: "Frontend development through studies and internship projects.",
+      description:
+        "Frontend development through studies and internship projects.",
     },
     {
       title: "15+ Projects",
       description: "Built fullstack web applications from the ground up.",
     },
     {
-      title: "Versatile Skill Set",
-      description: "Comfortable working across design, frontend, and backend.",
+      title: "2 Internships",
+      description:
+        "Gained practical experience in real-world development environments.",
     },
     {
-      title: "Continuous Growth",
-      description: "Always expanding my skill set with modern tools.",
+      title: "Versatile Skill Set",
+      description: "Comfortable working across design, frontend, and backend.",
     },
   ];
 
@@ -47,10 +49,14 @@ export default function Stats() {
             ${isDark ? "bg-black/20 border-white/20" : "bg-white/80 border-black/10"}
           `}
         >
-          <h3 className={`${isDark ? "text-cyan-300" : "text-black"} text-2xl font-semibold`}>
+          <h3
+            className={`${isDark ? "text-cyan-300" : "text-black"} text-2xl font-semibold`}
+          >
             {item.title}
           </h3>
-          <p className={`${isDark ? "text-white/80" : "text-black/70"} mt-2 text-sm leading-relaxed`}>
+          <p
+            className={`${isDark ? "text-white/80" : "text-black/70"} mt-2 text-sm leading-relaxed`}
+          >
             {item.description}
           </p>
         </article>
